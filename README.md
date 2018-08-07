@@ -5,7 +5,7 @@
 run docker
 
 ```
-docker run -d 3306:3306 docker-q4m
+docker run -d -p 3306:3306 jun16/docker-q4m
 ```
 
 connect from host
